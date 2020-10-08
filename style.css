@@ -455,6 +455,7 @@ div#content_6 .container div#input div:last-child form input {
 	height: 50px;
 	border: none;
 	background-color: #dee0e6ba;
+	padding: 0px 20px;
 }
 
 div#content_6 .container div#input div:last-child form button {
