@@ -1,0 +1,502 @@
+/*reset CSS*/
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.clearfix:after {
+	content: ' ';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+body {
+	background-color: white;
+}
+
+div.container {
+	width: 1170px;
+	margin: 0px auto;
+}
+
+/**style cho content 1**/
+
+div#content_1 {
+	height: 1000px;
+	background-image: url(images/bg2.png), url(images/smartphone.png), url(images/bg1.png);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-size: contain, auto, cover;
+	background-position: center bottom, center bottom -90px, center bottom;
+}
+
+div#header {
+	padding-top: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+
+div#header div:nth-child(1) {
+	
+}
+
+div#header div ul li {
+	display: inline-block;
+	height: 57px;
+	line-height: 57px;
+	margin-right: 64px;
+}
+div#header div ul li:last-child {
+	margin-right: 19px;
+}
+div#header div ul li a {
+	font-size: 16px;
+	color: white;
+}
+
+#content_1 .container h1 {
+	font-size: 45px;
+	line-height: 60px;
+	font-weight: bold;
+	color: white;
+	width: 514px;
+	text-align: center;
+	margin: 100px auto 0px auto;
+}
+
+#content_1 .container p {
+	font-size: 15px;
+	line-height: 27px;
+	color: white;
+	margin: 20px auto 0px auto;
+	width: 340px;
+}
+
+#content_1 .container:last-child div{
+	text-align: center;
+	margin-top: 42px;
+}
+
+#content_1 .container:last-child div a {
+	display: inline-block;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	color: white;
+	font-weight: bold;
+	padding: 0px 40px;
+	border: 1px solid white;
+	border-radius: 6px;
+	margin: 0px 6px;
+}
+#content_1 .container:last-child div a:hover {
+	background-color: white;
+	color: black;
+}
+
+
+/**style cho content_2**/
+
+div#content_2 {
+	background-color: #fafafc;
+	padding-top: 114px;
+}
+
+div#content_2 .container {
+	display: flex;
+	height: 1000px;
+}
+
+div#content_2 .container #image {
+	flex-grow: 1;
+	padding-top: 176px;
+	padding-left: 120px;
+}
+
+div#content_2 .container #feature {
+	flex-grow: 4;
+	position: relative;
+}
+
+div#content_2 .container #feature div {
+	width: 270px;
+	height: 322px;
+	background-color: white;
+	box-shadow: 0px 6px 10px rgba(35, 39, 47, 0.1); 
+	border-radius: 6px;
+	text-align: center;
+	padding-top: 62px;
+	position: absolute;
+}
+
+div#content_2 .container #feature div p:nth-child(2) {
+	font-size: 14px;
+	line-height: 27px;
+	font-weight: bold;
+	margin-top: 29px;
+	color: #233148;
+}
+
+div#content_2 .container #feature div p:nth-child(3) {
+	font-size: 14px;
+	line-height: 27px;
+	margin-top: 15px;
+	padding: 0px 32px;
+	color: #6a6d89;
+}
+
+div#content_2 .container #feature div:nth-child(1) {
+
+}
+
+div#content_2 .container #feature div:nth-child(2) {
+	top: 96px;
+	left: 330px;
+}
+
+div#content_2 .container #feature div:nth-child(3) {
+	top: 392px;
+	left: -70px;
+}
+
+div#content_2 .container #feature div:nth-child(4) {
+	top: 517px;
+	left: 282px;
+}
+
+
+/**style cho content_3**/
+
+div#content_3 .container {
+	display: flex;
+	justify-content: space-between;
+	height: 630px;
+}
+
+div#content_3 .container #stable {
+	width: 474px;
+	padding-top: 153px;
+	text-align: right;
+}
+
+div#content_3 .container #stable p {
+	font-size: 14px;
+	line-height: 27px;
+	color: #6a6d89;
+	margin-top: 32px;
+}
+
+div#content_3 .container #stable h2 {
+	line-height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #233148;
+}
+
+div#content_3 .container #stable a {
+	margin-top: 32px;
+	display: inline-block;
+	padding: 0px 54px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	color: white;
+	background-color: #33d2fd;
+	border-radius: 6px;
+}
+
+div#content_3 .container #link {
+	width: 563px;
+	margin-top: 84px;
+}
+
+div#content_3 .container #link div.the_link {
+	margin-top: 21px;
+	width: 542px;
+	box-shadow: 0px 6px 10px rgba(35, 39, 47, 0.1);
+	line-height: 78px;
+	border-radius: 4px;
+}
+
+div#content_3 .container #link div.the_link p {
+	display: none;
+}
+
+div#content_3 .container #link div.the_link div {
+	display: inline-block;
+	width: 82px;
+	text-align: center;
+}
+
+div#content_3 .container #link div.the_link img {
+	position: relative;
+	top: 6px;
+}
+
+div#content_3 .container #link div.the_link h3 {
+	display: inline-block;
+}
+
+div#content_3 .container #link div.the_link:hover {
+	background-color: #33d2fd;
+}
+
+div#content_3 .container #link div.the_link:hover p {
+	display: block;
+	font-size: 14px;
+	line-height: 27px;
+	color: white;
+	padding: 0px 112px 28px 80px;
+}
+
+
+/**style cho content_4**/
+
+div#content_4 {
+	background-color: #fafafc;
+}
+
+div#content_4 .container {
+	display: flex;
+	padding-bottom: 30px;
+}
+
+div#content_4 .container div#code {
+	flex-basis: 50%;
+	padding-top: 53px;
+}
+
+div#content_4 .container div#need {
+	flex-basis: 50%;
+	padding-top: 75px;
+	padding-left: 110px;
+}
+
+div#content_4 .container div#need h2 {
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #233148;
+}
+
+div#content_4 .container div#need > div {
+	margin-top: 27px;
+}
+
+div#content_4 .container div#need div div.tick:last-child {
+	margin-top: 20px;
+}
+
+div#content_4 .container div#need div div.tick img {
+	position: relative;
+	top: 4px;
+}
+
+div#content_4 .container div#need div div.tick a{
+	display: inline-block;
+	line-height: 19px;
+	font-size: 15px;
+	color: #233148;
+	font-weight: bold;
+	margin-left: 16px;
+}
+
+div#content_4 .container div#need p {
+	font-size: 14px;
+	line-height: 27px;
+	color: #6a6d89;
+	margin-top: 37px;
+}
+
+
+/**style cho content_5**/
+
+div#content_5 {
+	background-image: url(images/bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#content_5 .container {
+	display: flex;
+	height: 764px;
+}
+
+div#content_5 .container > div:nth-child(1) {
+	flex-basis: 600px;
+	text-align: center;
+}
+
+div#content_5 .container > div:nth-child(2) {
+	flex-basis: calc(100% - 600px);
+	padding-top: 260px;
+}
+
+div#content_5 .container > div:nth-child(1) img {
+	margin-top: 102px;
+}
+
+div#content_5 .container > div:nth-child(2) h3 {
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #233148;
+}
+
+div#content_5 .container > div:nth-child(2) p {
+	font-size: 14px;
+	line-height: 27px;
+	color: white;
+	padding-right: 124px;
+}
+
+div#content_5 .container > div:nth-child(2) div#store {
+	margin-top: 34px;
+}
+
+div#content_5 .container > div:nth-child(2) div#store a {
+	display: inline-block;
+}
+
+div#content_5 .container > div:nth-child(2) div#store a img {
+	margin-right: 33px;
+}
+
+div#content_5 .container > div:nth-child(2) div#get {
+	position: relative;
+	margin-top: 179px;
+}
+
+div#content_5 .container > div:nth-child(2) div#get a {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 60px;
+	color: white;
+	font-weight: bold;
+	padding: 5px 94px;
+	background-image: linear-gradient(#fe7570, #f6387d);
+	box-shadow: 0px 11px 29px rgba(255, 7, 95, 0.4);
+	position: absolute;
+	top: 35px;
+    left: -185px;
+}
+
+
+/**style cho content_6**/
+
+div#content_6 .container {
+	padding-bottom: 87px;
+}
+
+div#content_6 .container div#info {
+	margin-top: 139px;
+    padding: 0px 225px;
+}
+
+div#content_6 .container div#info > ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+div#content_6 .container div#info > ul > li {
+	display: inline-block;
+}
+
+div#content_6 .container div#info > ul > li a{
+	font-size: 15px;
+	line-height: 27px;
+	font-weight: bold;
+	color: #233148;
+}
+
+div#content_6 .container div#info > ul > li ul {
+	margin-top: 19px;
+}
+
+div#content_6 .container div#info > ul > li ul li {
+	font-size: 14px;
+	line-height: 27px;
+	color: #6a6d89;
+	margin-bottom: 5px;
+}
+
+div#content_6 .container div#input {
+	margin-top: 78px;
+	text-align: center;
+}
+
+div#content_6 .container div#input div:first-child h2 {
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #233148;
+}
+
+div#content_6 .container div#input div:first-child p {
+	margin-top: 15px;
+	font-size: 14px;
+	line-height: 27px;
+	color: #6a6d89;
+}
+
+div#content_6 .container div#input div:last-child {
+	margin-top: 64px;
+}
+
+div#content_6 .container div#input div:last-child form input {
+	width: 570px;
+	height: 50px;
+	border: none;
+	background-color: #dee0e6ba;
+}
+
+div#content_6 .container div#input div:last-child form button {
+	font-size: 15px;
+	color: #233148;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	font-family: Times New Roman, sans-serif;
+	padding: 0px 35px;
+	margin-left: 26px;
+	border: none;
+	background-color: #33d2fd;
+}
+
+/**style cho footer**/
+
+div#footer {
+	background-color: #233148;
+}
+
+div#footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+div#footer .container div {
+	display: inline-block;
+}
+
+div#footer .container div p {
+	height: 100px;
+	line-height: 100px;
+	font-size: 14px;
+	color: white;
+}
+
+div#footer .container div:last-child {
+	padding-top: 35px;
+}
+
+div#footer .container div a {
+	display: inline-block;
+	margin-left: 47px;
+}

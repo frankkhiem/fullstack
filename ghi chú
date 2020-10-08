@@ -1,0 +1,51 @@
+* block và inline: thuộc tính trong css là display
+	+ block: 
+		+ là những thành phần rộng bằng 100% thành phần cha của nó, có thể chứa các thành phần khác
+		+ có thể đặt width height cho nó
+	+ inline: 
+		+ là các thành phần chỉ rộng bằng không gian nội dung của nó
+		+ không thể đặt width height cho nó, không gian chiếm chỗ bằng đúng phần nội dung của nó
+
+	+ none: không hiển thị ra màn hình
+	+ thuộc tính inline-block: nằm trên cùng 1 hàng với nhau như inline nhưng có thể đặt chiều rộng và chiều cao cho nó. giống việc đặt float cho các block
+
+* Position: vị trí của các thành phần trên trang web
+	+ relative (mặc định):
+	+ absolute:
+		+ vị trí gắn chặt với cha (để relative) của nó
+	+ fixed: 
+		+ vị trí gắn chặt với màn hình trình duyệt, khi cuộn trang không thay đổi vị trí
+		+ có 4 thuộc tính con đối với fixed: top left right bottom
+
+	- Trick: cặp trời sinh
+		+ 1 cha relative + 1 con absolute
+
+* flex: lựa chọn trong thuộc tính display
+	+ đặt cho thành phần cha là flex
+	+ --> các thành phần con sẽ có chiều cross bằng nhau
+	+ mặc định: các thành phần con sẽ có chiều rộng bằng nội dung của nó
+	+ thuộc tính flex-grow: đặt trong các thành phần con. Mang ý nghĩa mở rộng tỉ lệ chiếm chỗ chiều ngang của thành phần cha theo trục main. Độ ưu tiên thấp hơn width
+	+ thuộc tính flex-wrap: 
+	+ thuộc tính flex-shrink: ngược lại với flex-grow, độ giảm của thành phần con khi thành phần cha thiếu không gian chứa (vd: khi co cửa số trình duyệt)
+	+ justify-content: tác dụng căn chỉnh các thành phần con sang trái, phải, giữa theo trục main
+	+ flex-direction: chọn phương hướng của trục main
+	+ flex-basis: chiều rộng của thành phần theo trục main
+	+ align-item: căn chỉnh thành phần con theo trục cross
+
+* Font chữ: 
+	+ letter-spacing: khoảng cách giữa các chữ cái
+	+ line-height: độ cao của dòng chữ
+	+ word-spacing: khoảng cách khoảng trắng giữa các từ
+	+ Các loại phông chữ:
+		+ font-family: danh sách các font theo thứ tự ưu tiên được áp vào nội dung
+		+ font sans-serif: font mặc định của trình duyệt (nên đặt ở cuối cùng khi sử dụng font-family)
+* Transition: sự chuyển đổi của 1 element
+ 	+ câu lệnh nhớ transition: width 2s ease 1s
+ 	+ có thể viết tách biệt thành
+ 		+ transiton-property: thuộc tính áp dụng transition vào
+ 		+ transition-duration: thời gian thực hiện
+ 		+ transition-timing-funtion: hàm style chuyển đổi
+ 		+ transition-delay: độ trễ
+ 	+ các thuộc tính có thể áp transition vào: chỉ có tác dụng với những thuộc tính dạng số và màu sắc.
+
+*Shadow: 
