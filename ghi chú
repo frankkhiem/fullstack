@@ -48,4 +48,6 @@
  		+ transition-delay: độ trễ
  	+ các thuộc tính có thể áp transition vào: chỉ có tác dụng với những thuộc tính dạng số và màu sắc.
 
-*Shadow: 
+* Responsive: làm cho trang web thích ứng với các loại phần cứng màn hình khác nhau
+	+ @media screen and (max-width: ...px){} :style cho loại màn hình có chiều rộng nhỏ hơn ...px
+	+
